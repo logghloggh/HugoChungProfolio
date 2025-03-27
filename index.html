@@ -1,4 +1,4 @@
-<html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -6,9 +6,13 @@
   <link href="https://bootswatch.com/5/simplex/bootstrap.min.css" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
 <style>
+    html {
+    scroll-behavior: smooth;
+  }
   body {
     font-family: 'Montserrat', sans-serif;
   }
+  
 </style>
 
 
@@ -17,26 +21,26 @@
 <body background="https://upload.wikimedia.org/wikipedia/commons/5/5e/Vista_del_Puerto_de_Victoria_desde_Sky100%2C_Hong_Kong%2C_2013-08-09%2C_DD_10.JPG">
   <nav class="navbar navbar-expand-lg bg-primary border-bottom border-light shadow" data-bs-theme="dark">
     <div class="container-fluid">
-      <a class="navbar-brand text-uppercase fw-bold" href="#Home">Hugo Chung's Portfolio</a>
+      <a class="navbar-brand text-uppercase fw-bold" href="https://logghloggh.github.io/HugoChungProfolio/">Hugo Chung's Portfolio</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarColor01">
         <ul class="navbar-nav me-auto">
           <li class="nav-item">
-            <a class="nav-link active fw-semibold" href="#Home">Home <span class="visually-hidden">(current)</span></a>
+            <a class="nav-link active fw-semibold" href="#General">General <span class="visually-hidden">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#Study">Study</a>
+            <a class="nav-link" href="#Study" role="tab">Study</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#Skills">Skills</a>
+            <a class="nav-link" href="#Skills" role="tab">Skills</a>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">More</a>
+            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">More</a>
             <div class="dropdown-menu shadow">
               <a class="dropdown-item" href="#About Me">About Me</a>
-              <a class="dropdown-item" href="#Github">GitHub Page</a>
+              <a class="dropdown-item" href="https://github.com/logghloggh/HugoChungProfolio">GitHub Page</a>
               <div class="dropdown-divider"></div>
               <a class="dropdown-item" href="https://www.dundee.ac.uk">UoD website</a>
             </div>
@@ -87,11 +91,141 @@
       </div>
     </div>
   </div>
+  
 
-  <footer class="bg-light text-center py-4 mt-5">
-    <p class="mb-0 fw-bold">&copy; 2025 Hugo Chung | <a href="https://example.com" class="text-decoration-underline">Visit my website</a></p>
+  
+  
+  <div class="card col-md-8 mx-auto bg-dark bg-opacity-50 text-light">
+  <h3 class="card-header" id = "General">General</h3>
+  <div class="card-body">
+  </div>
+  <img src="https://i.guim.co.uk/img/media/d059b58efe8ce50d15639f76448becdeec69bc9b/0_184_7200_4320/master/7200.jpg?width=1200&height=1200&quality=85&auto=format&fit=crop&s=cdb5298773baf69c080a77c757fd6c08" class="d-block user-select-none" width="100%" height="400" alt="random programming image"style="font-size:1.125rem;text-anchor:middle">
+
+  <div class="card-body">
+    <p class="card-text">I am a Computer Science Student in the University of Dundee named Hugo Chung. I came from Hong Kong just recently with the passion of learning more about programming.</p>
+  </div>
+  <div class="card-footer text-muted">
+    <a href="#About Me" class="card-link">More About Me</a>
+  </div>
+</div>
+  
+  <div class="card col-md-8 mx-auto bg-dark bg-opacity-50 text-light">
+  <h3 class="card-header" id = "Study">Study</h3>
+  <div class="card-body">
+  </div>
+  <img src="https://www.makerstations.io/content/images/2022/03/olja-lobkis-studygram-04.jpeg" class="d-block user-select-none" width="100%" height="600" alt="random studying image"style="font-size:1.125rem;text-anchor:middle">
+
+  <div class="card-body">
+    <p class="card-text">I studied and gratuated in a secondary school in Hong Kong and attended HKDSE. Now, I am currently studying Computer Science in the University of Dundee.</p>
+  </div>
+  <div class="card-footer text-muted">
+    <a href="#About Me" class="card-link">More About Me</a>
+  </div>
+</div>
+
+ <div class="card col-md-8 mx-auto bg-dark bg-opacity-50 text-light">
+  <h3 class="card-header" id = "Skills">Skills</h3>
+  <div class="card-body">
+  </div>
+  <img src="https://www.cvmaker.uk/static/d0b636e5dbd04fb47d9df53e19ac531a/47a73/03_trending-skills-in-the-job-market.jpg" class="d-block user-select-none mx-auto" width="80%" height="500" alt="random skill image"style="font-size:1.125rem;text-anchor:middle">
+
+  <div class="card-body">
+    <p class="card-text">I have learnt pascal in my secondary school, java in a another module and now html in this module. </p>
+  </div>
+  <div class="card-footer text-muted">
+    <a href="#About Me" class="card-link">More About Me</a>
+  </div>
+</div>
+  <ul class="nav nav-tabs col-md-6 mx-auto bg-dark bg-opacity-50 text-light" role="tablist" id="About Me">
+  <li class="nav-item" role="presentation">
+    <a class="nav-link active" data-bs-toggle="tab" href="#Gaming" aria-selected="true" role="tab">Gaming</a>
+  </li>
+  <li class="nav-item" role="presentation">
+    <a class="nav-link" data-bs-toggle="tab" href="#Life" aria-selected="false" tabindex="-1" role="tab">Life</a>
+  </li>
+</ul>
+<div id="myTabContent" class="tab-content col-md-6 mx-auto bg-dark bg-opacity-50 text-light">
+  <div class="tab-pane fade show active" id="Gaming" role="tabpanel">
+    <p>Favorite Games
+      <ul class="list-group list-group-flush">
+    <li class="list-group-item"><button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#Warframe">Warframe</li>
+    <li class="list-group-item"><button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#Yugioh">Yugioh</li>
+    <li class="list-group-item"><button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#Mhws">Monster Hunter Wilds</li>
+  </ul>
+    </p>
+  </div>
+  <div class="tab-pane fade" id="Life" role="tabpanel">
+    <p>I have been really enjoying the student life in Dundee. Truly a never experienced life. When I was in Hong Kong, it was either too crammed or too many cars suffocating me out of existence.</p>
+  </div>
+  
+  <footer class="bg-light text-center py-4 mt-5 bg-opacity-50">
+    <p class="mb-0 fw-bold">&copy; 2025 Hugo Chung | <a href="https://logghloggh.github.io/HugoChungProfolio/" class="text-decoration-underline">Visit my website</a></p>
   </footer>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
+
+
+<div class="modal fade" id="Warframe">
+  <div class="modal-dialog" role="document" >
+    <div class="modal-content bg-dark">
+      <div class="modal-header">
+        <h5 class="modal-title">Warframe</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true"></span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>Warframe is a looting and shooting PvE third person shooter that encourages players to grind and play with their friends.
+        <img src="https://www-static.warframe.com/images/landing/warframe-metacard.png" width = 100%></p>
+      </div>
+      <div class="modal-footer">
+        <a type="button" class="btn btn-primary" href="https://www.warframe.com">Find More</a>
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="Yugioh">
+  <div class="modal-dialog" role="document" >
+    <div class="modal-content bg-dark">
+      <div class="modal-header">
+        <h5 class="modal-title">Yugioh</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true"></span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>Yugioh is a hyper complex Trading Card Game with tons of different strategy with an eternal card pool.
+        <img src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1449850/ss_f4e2257edc1cb8093f1f0b40d7daf96211405f90.1920x1080.jpg?t=1738647047" width = 100%></p>
+      </div>
+      <div class="modal-footer">
+        <a type="button" class="btn btn-primary" href="https://www.konami.com/yugioh/masterduel/eu/en/">Find More</a>
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="Mhws">
+  <div class="modal-dialog" role="document" >
+    <div class="modal-content bg-dark">
+      <div class="modal-header">
+        <h5 class="modal-title">Monster Hunter Wilds</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true"></span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>Monster Hunter Wilds is a game where you can fight monsters and dragons with a variety of weapons either solo or with your friends.
+        <img src="https://www.monsterhunter.com/wilds/assets/img/thumb_main.jpg" width = 100%></p>
+      </div>
+      <div class="modal-footer">
+        <a type="button" class="btn btn-primary" href="https://www.monsterhunter.com/wilds/en-uk/">Find More</a>
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
