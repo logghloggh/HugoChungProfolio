@@ -3,16 +3,27 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Your Portfolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
   <link href="https://bootswatch.com/5/simplex/bootstrap.min.css" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
 <style>
+  a:hover i.fab, a:hover i.fa-brands {
+  color: #555;
+  transition: color 0.3s ease;
+  }
     html {
     scroll-behavior: smooth;
   }
   body {
     font-family: 'Montserrat', sans-serif;
   }
-  
+  .card, .tab-content {
+  margin-bottom: 40px;
+  }
+  .btn:hover {
+  transform: translateY(-1px);
+  transition: transform 0.3s ease;
+  }
 </style>
 
 
@@ -159,7 +170,10 @@
   </div>
   
   <footer class="bg-light text-center py-4 mt-5 bg-opacity-50">
-    <p class="mb-0 fw-bold">&copy; 2025 Hugo Chung | <a href="https://logghloggh.github.io/HugoChungProfolio/" class="text-decoration-underline">Visit my website</a></p>
+    <p class="mb-0 fw-bold">&copy; 2025 Hugo Chung | <a href="https://logghloggh.github.io/HugoChungProfolio/" class="text-decoration-underline">Visit my website</a>
+      <a href="https://github.com/logghloggh" target="_blank" class="text-dark me-3">
+      <i class="fa-brands fa-github fa-bounce fa-2xl"></i></a>
+    </p>
   </footer>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
@@ -173,12 +187,11 @@
       <div class="modal-header">
         <h5 class="modal-title">Warframe</h5>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true"></span>
         </button>
       </div>
       <div class="modal-body">
         <p>Warframe is a looting and shooting PvE third person shooter that encourages players to grind and play with their friends.
-        <img src="https://www-static.warframe.com/images/landing/warframe-metacard.png" width = 100%></p>
+        <img src="https://www-static.warframe.com/images/landing/warframe-metacard.png" width = 100% alt="Warframe promotional image"></p>
       </div>
       <div class="modal-footer">
         <a type="button" class="btn btn-primary" href="https://www.warframe.com">Find More</a>
@@ -194,12 +207,11 @@
       <div class="modal-header">
         <h5 class="modal-title">Yugioh</h5>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true"></span>
         </button>
       </div>
       <div class="modal-body">
         <p>Yugioh is a hyper complex Trading Card Game with tons of different strategy with an eternal card pool.
-        <img src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1449850/ss_f4e2257edc1cb8093f1f0b40d7daf96211405f90.1920x1080.jpg?t=1738647047" width = 100%></p>
+        <img src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1449850/ss_f4e2257edc1cb8093f1f0b40d7daf96211405f90.1920x1080.jpg?t=1738647047"  width = 100% alt="Yugioh promotional image"></p>
       </div>
       <div class="modal-footer">
         <a type="button" class="btn btn-primary" href="https://www.konami.com/yugioh/masterduel/eu/en/">Find More</a>
@@ -214,13 +226,11 @@
     <div class="modal-content bg-dark">
       <div class="modal-header">
         <h5 class="modal-title">Monster Hunter Wilds</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true"></span>
-        </button>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
         <p>Monster Hunter Wilds is a game where you can fight monsters and dragons with a variety of weapons either solo or with your friends.
-        <img src="https://www.monsterhunter.com/wilds/assets/img/thumb_main.jpg" width = 100%></p>
+        <img src="https://www.monsterhunter.com/wilds/assets/img/thumb_main.jpg" width = 100% alt="Monster Hunter Wilds promotional image"></p>
       </div>
       <div class="modal-footer">
         <a type="button" class="btn btn-primary" href="https://www.monsterhunter.com/wilds/en-uk/">Find More</a>
